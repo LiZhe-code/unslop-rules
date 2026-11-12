@@ -1,0 +1,1688 @@
+{
+ "title": "AI words list: measured AI vs human frequency",
+ "source": "https://gounslop.com/ai-slop-phrases",
+ "license": "CC BY 4.0",
+ "generated": "2026-11-12",
+ "corpus": {
+  "questions": 300,
+  "ai_words": 67773,
+  "human_words": 65983,
+  "chatgpt2022_words": 69297,
+  "models": {
+   "gpt-4o-mini": 100,
+   "gpt-5.4-nano": 100,
+   "gpt-6-luna": 100
+  },
+  "sources": {
+   "reddit_eli5": 120,
+   "finance": 60,
+   "open_qa": 60,
+   "medicine": 30,
+   "wiki_csai": 30
+  }
+ },
+ "formatting": {
+  "ai": {
+   "words": 67773,
+   "em_dash_per_1k": 4.5,
+   "bullets_per_1k": 29.24,
+   "bold_per_1k": 32.68,
+   "headings_per_1k": 6.48,
+   "colons_per_1k": 19.52,
+   "semicolons_per_1k": 1.28,
+   "exclaim_per_1k": 1.42,
+   "sentence_len_mean": 20.1,
+   "sentence_len_sd": 13
+  },
+  "human": {
+   "words": 65983,
+   "em_dash_per_1k": 0.21,
+   "bullets_per_1k": 0.03,
+   "bold_per_1k": 0,
+   "headings_per_1k": 0,
+   "colons_per_1k": 3.24,
+   "semicolons_per_1k": 1.21,
+   "exclaim_per_1k": 0.56,
+   "sentence_len_mean": 19.8,
+   "sentence_len_sd": 13.2
+  },
+  "chatgpt2022": {
+   "words": 69297,
+   "em_dash_per_1k": 0.06,
+   "bullets_per_1k": 0,
+   "bold_per_1k": 0,
+   "headings_per_1k": 0,
+   "colons_per_1k": 4.96,
+   "semicolons_per_1k": 0.04,
+   "exclaim_per_1k": 0.48,
+   "sentence_len_mean": 25.7,
+   "sentence_len_sd": 15.5
+  },
+  "by_model": {
+   "gpt-4o-mini": {
+    "words": 23916,
+    "em_dash_per_1k": 0.5,
+    "bullets_per_1k": 24.29,
+    "bold_per_1k": 21.28,
+    "headings_per_1k": 2.05,
+    "colons_per_1k": 25.46,
+    "semicolons_per_1k": 0.25,
+    "exclaim_per_1k": 3.35,
+    "sentence_len_mean": 18.8,
+    "sentence_len_sd": 8.2
+   },
+   "gpt-5.4-nano": {
+    "words": 27973,
+    "em_dash_per_1k": 5.9,
+    "bullets_per_1k": 42.61,
+    "bold_per_1k": 47.58,
+    "headings_per_1k": 13.23,
+    "colons_per_1k": 19.88,
+    "semicolons_per_1k": 1.29,
+    "exclaim_per_1k": 0.46,
+    "sentence_len_mean": 23.2,
+    "sentence_len_sd": 18
+   },
+   "gpt-6-luna": {
+    "words": 15884,
+    "em_dash_per_1k": 8.06,
+    "bullets_per_1k": 13.16,
+    "bold_per_1k": 23.61,
+    "headings_per_1k": 1.26,
+    "colons_per_1k": 9.95,
+    "semicolons_per_1k": 2.83,
+    "exclaim_per_1k": 0.19,
+    "sentence_len_mean": 17.6,
+    "sentence_len_sd": 8.8
+   }
+  }
+ },
+ "ranked": [
+  {
+   "phrase": "tell me",
+   "ratio": 26.8,
+   "ai_per_10k": 7.97,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 18,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "if you tell me",
+   "ratio": 34.1,
+   "ai_per_10k": 5.02,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 11.3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "and whether",
+   "ratio": 28.2,
+   "ai_per_10k": 4.13,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.29,
+   "ai_docs_pct": 9,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "can help",
+   "ratio": 13.6,
+   "ai_per_10k": 8.12,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 8.37,
+   "ai_docs_pct": 12.7,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "can lead to",
+   "ratio": 17.5,
+   "ai_per_10k": 5.16,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 3.61,
+   "ai_docs_pct": 7.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "specific",
+   "ratio": 8.2,
+   "ai_per_10k": 12.25,
+   "human_per_10k": 1.36,
+   "chatgpt2022_per_10k": 9.96,
+   "ai_docs_pct": 21.3,
+   "human_docs_pct": 3
+  },
+  {
+   "phrase": "summary",
+   "ratio": 19.5,
+   "ai_per_10k": 2.8,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.72,
+   "ai_docs_pct": 6,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "here are some",
+   "ratio": 12.2,
+   "ai_per_10k": 3.54,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 1.3,
+   "ai_docs_pct": 8,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "common",
+   "ratio": 6.7,
+   "ai_per_10k": 14.02,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 4.47,
+   "ai_docs_pct": 21.7,
+   "human_docs_pct": 4.3
+  },
+  {
+   "phrase": "whether",
+   "ratio": 6.5,
+   "ai_per_10k": 13.72,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 2.89,
+   "ai_docs_pct": 21.7,
+   "human_docs_pct": 4.3
+  },
+  {
+   "phrase": "it's important to",
+   "ratio": 16.6,
+   "ai_per_10k": 2.36,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 9.09,
+   "ai_docs_pct": 5,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "plan",
+   "ratio": 9.5,
+   "ai_per_10k": 5.61,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 4.47,
+   "ai_docs_pct": 9,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "can sometimes",
+   "ratio": 16.6,
+   "ai_per_10k": 2.36,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 4.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "avoid",
+   "ratio": 8.4,
+   "ai_per_10k": 7.53,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 4.62,
+   "ai_docs_pct": 10.7,
+   "human_docs_pct": 1.7
+  },
+  {
+   "phrase": "may",
+   "ratio": 4.3,
+   "ai_per_10k": 45,
+   "human_per_10k": 10.31,
+   "chatgpt2022_per_10k": 54.55,
+   "ai_docs_pct": 48.7,
+   "human_docs_pct": 18.3
+  },
+  {
+   "phrase": "and may",
+   "ratio": 15.6,
+   "ai_per_10k": 2.21,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 3.61,
+   "ai_docs_pct": 4.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "rules",
+   "ratio": 6.7,
+   "ai_per_10k": 11.07,
+   "human_per_10k": 1.52,
+   "chatgpt2022_per_10k": 2.6,
+   "ai_docs_pct": 13.7,
+   "human_docs_pct": 2.3
+  },
+  {
+   "phrase": "improve",
+   "ratio": 10.2,
+   "ai_per_10k": 2.95,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 6.78,
+   "ai_docs_pct": 6.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "here are",
+   "ratio": 6.3,
+   "ai_per_10k": 5.61,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 3.17,
+   "ai_docs_pct": 12.3,
+   "human_docs_pct": 1.7
+  },
+  {
+   "phrase": "especially if",
+   "ratio": 9.7,
+   "ai_per_10k": 2.8,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 1.3,
+   "ai_docs_pct": 6,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "beneficial",
+   "ratio": 13.6,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.58,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "lead to",
+   "ratio": 7,
+   "ai_per_10k": 7.23,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 5.2,
+   "ai_docs_pct": 9,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "important to",
+   "ratio": 7.8,
+   "ai_per_10k": 3.39,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 26.55,
+   "ai_docs_pct": 7.3,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "if you want i",
+   "ratio": 12.7,
+   "ai_per_10k": 1.77,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "can create",
+   "ratio": 12.7,
+   "ai_per_10k": 1.77,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.87,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "practical",
+   "ratio": 9.2,
+   "ai_per_10k": 2.66,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 5.7,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "factors",
+   "ratio": 6.5,
+   "ai_per_10k": 5.75,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 7.79,
+   "ai_docs_pct": 9.7,
+   "human_docs_pct": 1.7
+  },
+  {
+   "phrase": "often",
+   "ratio": 3.5,
+   "ai_per_10k": 30.99,
+   "human_per_10k": 8.79,
+   "chatgpt2022_per_10k": 17.32,
+   "ai_docs_pct": 42.3,
+   "human_docs_pct": 14
+  },
+  {
+   "phrase": "strongly",
+   "ratio": 13.6,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "crucial",
+   "ratio": 11.7,
+   "ai_per_10k": 1.62,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "especially",
+   "ratio": 3.9,
+   "ai_per_10k": 12.25,
+   "human_per_10k": 3.03,
+   "chatgpt2022_per_10k": 2.02,
+   "ai_docs_pct": 23.3,
+   "human_docs_pct": 5.7
+  },
+  {
+   "phrase": "conditions",
+   "ratio": 5.4,
+   "ai_per_10k": 6.34,
+   "human_per_10k": 1.06,
+   "chatgpt2022_per_10k": 6.35,
+   "ai_docs_pct": 10.3,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "help",
+   "ratio": 3.8,
+   "ai_per_10k": 17.71,
+   "human_per_10k": 4.55,
+   "chatgpt2022_per_10k": 22.22,
+   "ai_docs_pct": 24,
+   "human_docs_pct": 8.7
+  },
+  {
+   "phrase": "typically",
+   "ratio": 4.2,
+   "ai_per_10k": 8.71,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 9.24,
+   "ai_docs_pct": 17.3,
+   "human_docs_pct": 4
+  },
+  {
+   "phrase": "expectations",
+   "ratio": 12.7,
+   "ai_per_10k": 1.77,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.29,
+   "ai_docs_pct": 3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "changes",
+   "ratio": 4.3,
+   "ai_per_10k": 9,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 5.05,
+   "ai_docs_pct": 14.7,
+   "human_docs_pct": 3.3
+  },
+  {
+   "phrase": "i can explain",
+   "ratio": 6.5,
+   "ai_per_10k": 2.8,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 6.3,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "and avoid",
+   "ratio": 10.7,
+   "ai_per_10k": 1.48,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.72,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "sometimes",
+   "ratio": 3.5,
+   "ai_per_10k": 15.94,
+   "human_per_10k": 4.4,
+   "chatgpt2022_per_10k": 1.73,
+   "ai_docs_pct": 23.3,
+   "human_docs_pct": 8.3
+  },
+  {
+   "phrase": "contribute",
+   "ratio": 7.8,
+   "ai_per_10k": 2.21,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 1.73,
+   "ai_docs_pct": 4.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "vary",
+   "ratio": 5.1,
+   "ai_per_10k": 3.69,
+   "human_per_10k": 0.61,
+   "chatgpt2022_per_10k": 2.45,
+   "ai_docs_pct": 8.3,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "can cause",
+   "ratio": 6.3,
+   "ai_per_10k": 3.69,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 5.2,
+   "ai_docs_pct": 5.3,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "steps",
+   "ratio": 5.8,
+   "ai_per_10k": 3.39,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 1.88,
+   "ai_docs_pct": 6,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "check the",
+   "ratio": 7.3,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 4.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "you mean",
+   "ratio": 5.6,
+   "ai_per_10k": 3.25,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 6.3,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "timing",
+   "ratio": 6.8,
+   "ai_per_10k": 2.95,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 4.7,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "can change",
+   "ratio": 9.7,
+   "ai_per_10k": 1.33,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "vary by",
+   "ratio": 9.7,
+   "ai_per_10k": 1.33,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 3,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "safe",
+   "ratio": 4.6,
+   "ai_per_10k": 5.46,
+   "human_per_10k": 1.06,
+   "chatgpt2022_per_10k": 2.89,
+   "ai_docs_pct": 8.7,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "requirements",
+   "ratio": 7.3,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 2.02,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "whether it",
+   "ratio": 6.8,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 4.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "weight",
+   "ratio": 7.8,
+   "ai_per_10k": 2.21,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 3.17,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "anxiety",
+   "ratio": 8.3,
+   "ai_per_10k": 2.36,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.87,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "consider",
+   "ratio": 4,
+   "ai_per_10k": 8.26,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 9.52,
+   "ai_docs_pct": 11,
+   "human_docs_pct": 4.3
+  },
+  {
+   "phrase": "typical",
+   "ratio": 6.2,
+   "ai_per_10k": 2.66,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 4.7,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "situation",
+   "ratio": 4.2,
+   "ai_per_10k": 5.61,
+   "human_per_10k": 1.21,
+   "chatgpt2022_per_10k": 4.18,
+   "ai_docs_pct": 9.3,
+   "human_docs_pct": 2.7
+  },
+  {
+   "phrase": "risks",
+   "ratio": 7.3,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 2.74,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "contribute to",
+   "ratio": 9.7,
+   "ai_per_10k": 1.33,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 1.59,
+   "ai_docs_pct": 2.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "exercise",
+   "ratio": 8.3,
+   "ai_per_10k": 2.36,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.72,
+   "ai_docs_pct": 3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "spread",
+   "ratio": 5.5,
+   "ai_per_10k": 2.36,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 1.01,
+   "ai_docs_pct": 5,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "key",
+   "ratio": 3.3,
+   "ai_per_10k": 7.38,
+   "human_per_10k": 2.12,
+   "chatgpt2022_per_10k": 2.6,
+   "ai_docs_pct": 15.7,
+   "human_docs_pct": 3.7
+  },
+  {
+   "phrase": "patterns",
+   "ratio": 6.8,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 2.31,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "ensure",
+   "ratio": 4.5,
+   "ai_per_10k": 4.57,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 2.89,
+   "ai_docs_pct": 7,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "create",
+   "ratio": 3.7,
+   "ai_per_10k": 5.46,
+   "human_per_10k": 1.36,
+   "chatgpt2022_per_10k": 6.35,
+   "ai_docs_pct": 10.7,
+   "human_docs_pct": 2.3
+  },
+  {
+   "phrase": "monitoring",
+   "ratio": 8.8,
+   "ai_per_10k": 1.18,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 2.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "tailored",
+   "ratio": 8.8,
+   "ai_per_10k": 1.18,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0.29,
+   "ai_docs_pct": 2.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "example if",
+   "ratio": 8.8,
+   "ai_per_10k": 1.18,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 2.02,
+   "ai_docs_pct": 2.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "etc i can",
+   "ratio": 8.8,
+   "ai_per_10k": 1.18,
+   "human_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 2.7,
+   "human_docs_pct": 0
+  },
+  {
+   "phrase": "professional",
+   "ratio": 4.4,
+   "ai_per_10k": 3.84,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 5.63,
+   "ai_docs_pct": 7,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "issues",
+   "ratio": 3.9,
+   "ai_per_10k": 6.34,
+   "human_per_10k": 1.52,
+   "chatgpt2022_per_10k": 3.61,
+   "ai_docs_pct": 9,
+   "human_docs_pct": 2.7
+  },
+  {
+   "phrase": "offer",
+   "ratio": 4.2,
+   "ai_per_10k": 3.69,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 3.17,
+   "ai_docs_pct": 7.3,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "routine",
+   "ratio": 6.8,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "include",
+   "ratio": 3.3,
+   "ai_per_10k": 6.93,
+   "human_per_10k": 1.97,
+   "chatgpt2022_per_10k": 9.38,
+   "ai_docs_pct": 13,
+   "human_docs_pct": 4
+  },
+  {
+   "phrase": "check",
+   "ratio": 3.3,
+   "ai_per_10k": 7.38,
+   "human_per_10k": 2.12,
+   "chatgpt2022_per_10k": 2.02,
+   "ai_docs_pct": 13,
+   "human_docs_pct": 3.7
+  },
+  {
+   "phrase": "injury",
+   "ratio": 7.3,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 1.73,
+   "ai_docs_pct": 3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "or other",
+   "ratio": 3.8,
+   "ai_per_10k": 3.84,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 6.64,
+   "ai_docs_pct": 8.7,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "manage",
+   "ratio": 4.3,
+   "ai_per_10k": 3.1,
+   "human_per_10k": 0.61,
+   "chatgpt2022_per_10k": 4.33,
+   "ai_docs_pct": 6,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "understanding",
+   "ratio": 4.3,
+   "ai_per_10k": 3.1,
+   "human_per_10k": 0.61,
+   "chatgpt2022_per_10k": 2.02,
+   "ai_docs_pct": 5.7,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "reduce",
+   "ratio": 3.4,
+   "ai_per_10k": 6.05,
+   "human_per_10k": 1.67,
+   "chatgpt2022_per_10k": 5.92,
+   "ai_docs_pct": 9.3,
+   "human_docs_pct": 3
+  },
+  {
+   "phrase": "pattern",
+   "ratio": 5.8,
+   "ai_per_10k": 1.62,
+   "human_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.29,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0.3
+  },
+  {
+   "phrase": "mainly",
+   "ratio": 4.9,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0,
+   "ai_docs_pct": 4.3,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "commonly",
+   "ratio": 3.5,
+   "ai_per_10k": 3.54,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 2.74,
+   "ai_docs_pct": 7.7,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "prices",
+   "ratio": 3.9,
+   "ai_per_10k": 6.34,
+   "human_per_10k": 1.52,
+   "chatgpt2022_per_10k": 3.17,
+   "ai_docs_pct": 5.7,
+   "human_docs_pct": 2.3
+  },
+  {
+   "phrase": "health",
+   "ratio": 3.4,
+   "ai_per_10k": 6.05,
+   "human_per_10k": 1.67,
+   "chatgpt2022_per_10k": 6.64,
+   "ai_docs_pct": 7.7,
+   "human_docs_pct": 3.3
+  },
+  {
+   "phrase": "period",
+   "ratio": 4.1,
+   "ai_per_10k": 3.54,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 4.47,
+   "ai_docs_pct": 5,
+   "human_docs_pct": 1.7
+  },
+  {
+   "phrase": "quick",
+   "ratio": 3.3,
+   "ai_per_10k": 3.39,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 7.7,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "stress",
+   "ratio": 3.9,
+   "ai_per_10k": 3.98,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 1.15,
+   "ai_docs_pct": 5.3,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "underlying",
+   "ratio": 4.5,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 3.17,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "provider",
+   "ratio": 5.1,
+   "ai_per_10k": 2.95,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 6.49,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 1
+  },
+  {
+   "phrase": "safety",
+   "ratio": 3.9,
+   "ai_per_10k": 3.98,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 1.15,
+   "ai_docs_pct": 5,
+   "human_docs_pct": 1.7
+  },
+  {
+   "phrase": "allowing",
+   "ratio": 3.9,
+   "ai_per_10k": 2.8,
+   "human_per_10k": 0.61,
+   "chatgpt2022_per_10k": 0.72,
+   "ai_docs_pct": 5,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "long term",
+   "ratio": 4.6,
+   "ai_per_10k": 2.66,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 2.31,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "affect",
+   "ratio": 3.3,
+   "ai_per_10k": 3.39,
+   "human_per_10k": 0.91,
+   "chatgpt2022_per_10k": 2.89,
+   "ai_docs_pct": 7,
+   "human_docs_pct": 2
+  },
+  {
+   "phrase": "healthcare",
+   "ratio": 3.5,
+   "ai_per_10k": 4.13,
+   "human_per_10k": 1.06,
+   "chatgpt2022_per_10k": 9.81,
+   "ai_docs_pct": 6,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "goals",
+   "ratio": 4.9,
+   "ai_per_10k": 2.07,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 3.9,
+   "ai_docs_pct": 3.3,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "compare",
+   "ratio": 4.5,
+   "ai_per_10k": 1.92,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 1.3,
+   "ai_docs_pct": 3.7,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "near",
+   "ratio": 3.6,
+   "ai_per_10k": 3.1,
+   "human_per_10k": 0.76,
+   "chatgpt2022_per_10k": 0.14,
+   "ai_docs_pct": 5.7,
+   "human_docs_pct": 1.3
+  },
+  {
+   "phrase": "details",
+   "ratio": 3.9,
+   "ai_per_10k": 2.21,
+   "human_per_10k": 0.45,
+   "chatgpt2022_per_10k": 0.72,
+   "ai_docs_pct": 4.7,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "describe",
+   "ratio": 4.2,
+   "ai_per_10k": 1.77,
+   "human_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0.43,
+   "ai_docs_pct": 4,
+   "human_docs_pct": 0.7
+  },
+  {
+   "phrase": "require",
+   "ratio": 3,
+   "ai_per_10k": 4.87,
+   "human_per_10k": 1.52,
+   "chatgpt2022_per_10k": 1.73,
+   "ai_docs_pct": 8.3,
+   "human_docs_pct": 2.7
+  }
+ ],
+ "classic_slop_words": [
+  {
+   "phrase": "it's important to note that",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "it is important to note that",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "it's worth noting that",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0.29,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "it is worth noting that",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "it's worth mentioning that",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in today's fast-paced world,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in today's digital age,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in today's rapidly evolving landscape,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in the ever-evolving world of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in the realm of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "when it comes to",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0.58,
+   "human_per_10k": 0.45
+  },
+  {
+   "phrase": "at the end of the day,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in conclusion,",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "in summary,",
+   "ai_per_10k": 2.21,
+   "chatgpt2022_per_10k": 0.72,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "to sum up,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "overall,",
+   "ai_per_10k": 4.28,
+   "chatgpt2022_per_10k": 8.51,
+   "human_per_10k": 1.36
+  },
+  {
+   "phrase": "ultimately,",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 1.44,
+   "human_per_10k": 0.61
+  },
+  {
+   "phrase": "additionally,",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 1.15,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "furthermore,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.91
+  },
+  {
+   "phrase": "moreover,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "consequently,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "notably,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.61
+  },
+  {
+   "phrase": "importantly,",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.45
+  },
+  {
+   "phrase": "that being said,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.76
+  },
+  {
+   "phrase": "with that being said,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "let's dive in",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "let's dive into",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "dive into",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "deep dive",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "delve into",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "delves into",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "delving into",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "delve",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "embark on a journey",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "embark on",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "navigate the complexities of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "navigating the complexities of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "navigate the landscape of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "a testament to",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "stands as a testament to",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "serves as a testament to",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "rich tapestry",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "tapestry of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "plays a crucial role in",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "plays a pivotal role in",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "plays a vital role in",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "plays a significant role in",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "a myriad of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "myriad",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "a plethora of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "plethora",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "utilize",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "utilizes",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "utilizing",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "leverage",
+   "ai_per_10k": 0.74,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "leveraging",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "seamlessly",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "seamless",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "robust",
+   "ai_per_10k": 0.44,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "cutting-edge",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "state-of-the-art",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "game-changer",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "game-changing",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "revolutionize",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "revolutionizing",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "unlock the power of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "unlock the potential of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "harness the power of",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "unleash",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "elevate your",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "elevate",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "empower",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "empowers",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "foster",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.43,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "fostering",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "bolster",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "underscore",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "underscores",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "showcasing",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "showcase",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "streamline",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "holistic",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "comprehensive",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "meticulous",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "meticulously",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "intricate",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "intricacies",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "nuanced",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "pivotal",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "paramount",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "vibrant",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0.29,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "bustling",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "ever-evolving",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "ever-changing",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "dynamic landscape",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "landscape",
+   "ai_per_10k": 0.44,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "realm",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0.15
+  },
+  {
+   "phrase": "beacon",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "symphony",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "labyrinth",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "testament",
+   "ai_per_10k": 0.3,
+   "chatgpt2022_per_10k": 0.58,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "tapestry",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "resonate",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "synergy",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "paradigm shift",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "i hope this helps",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0.72,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "i hope this email finds you well",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "feel free to reach out",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "great question!",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "certainly!",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 1.06
+  },
+  {
+   "phrase": "absolutely!",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 1.21
+  },
+  {
+   "phrase": "as an ai language model,",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  },
+  {
+   "phrase": "not only",
+   "ai_per_10k": 0.15,
+   "chatgpt2022_per_10k": 0.14,
+   "human_per_10k": 0.45
+  },
+  {
+   "phrase": "whether you're a",
+   "ai_per_10k": 0,
+   "chatgpt2022_per_10k": 0,
+   "human_per_10k": 0
+  }
+ ]
+}

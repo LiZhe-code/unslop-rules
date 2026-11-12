@@ -1,0 +1,845 @@
+{
+ "version": 1,
+ "updated": "2026-11-12",
+ "rules": [
+  {
+   "phrase": "it's important to note that",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Announces a point instead of making it."
+  },
+  {
+   "phrase": "it is important to note that",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Same throat-clearing, longer."
+  },
+  {
+   "phrase": "it's worth noting that",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Says nothing the next clause doesn't."
+  },
+  {
+   "phrase": "it is worth noting that",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Throat-clearing."
+  },
+  {
+   "phrase": "it's worth mentioning that",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Throat-clearing."
+  },
+  {
+   "phrase": "in today's ___ world/landscape/age,",
+   "regex": "(?<![\\w])in today['’]s(?: [\\w-]+){1,4} (?:world|landscape|age|era|environment|market|society),",
+   "action": "delete",
+   "replace": "",
+   "category": "opener",
+   "why": "The most recognizable AI opener, in all its variants."
+  },
+  {
+   "phrase": "in today's fast-paced world,",
+   "action": "delete",
+   "replace": "",
+   "category": "opener",
+   "why": "The most recognizable AI opener."
+  },
+  {
+   "phrase": "in today's digital age,",
+   "action": "delete",
+   "replace": "",
+   "category": "opener",
+   "why": "Generic scene-setting."
+  },
+  {
+   "phrase": "in today's rapidly evolving landscape,",
+   "action": "delete",
+   "replace": "",
+   "category": "opener",
+   "why": "Generic scene-setting."
+  },
+  {
+   "phrase": "in the ever-evolving world of",
+   "action": "replace",
+   "replace": "in",
+   "category": "opener",
+   "why": "Inflated framing."
+  },
+  {
+   "phrase": "in the realm of",
+   "action": "replace",
+   "replace": "in",
+   "category": "vocab",
+   "why": "'Realm' is rarely literal."
+  },
+  {
+   "phrase": "when it comes to",
+   "action": "replace",
+   "replace": "for",
+   "category": "filler",
+   "why": "Wordy way to say 'for'."
+  },
+  {
+   "phrase": "at the end of the day,",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Cliché wrap-up."
+  },
+  {
+   "phrase": "in conclusion,",
+   "action": "delete",
+   "replace": "",
+   "category": "structure",
+   "why": "Essay-template closer."
+  },
+  {
+   "phrase": "in summary,",
+   "action": "delete",
+   "replace": "",
+   "category": "structure",
+   "why": "Essay-template closer."
+  },
+  {
+   "phrase": "to sum up,",
+   "action": "delete",
+   "replace": "",
+   "category": "structure",
+   "why": "Essay-template closer."
+  },
+  {
+   "phrase": "overall,",
+   "action": "delete",
+   "replace": "",
+   "category": "structure",
+   "why": "Empty summary marker."
+  },
+  {
+   "phrase": "ultimately,",
+   "action": "delete",
+   "replace": "",
+   "category": "filler",
+   "why": "Adds false weight."
+  },
+  {
+   "phrase": "additionally,",
+   "action": "replace",
+   "replace": "Also,",
+   "category": "transition",
+   "why": "Stiff transition."
+  },
+  {
+   "phrase": "furthermore,",
+   "action": "replace",
+   "replace": "Also,",
+   "category": "transition",
+   "why": "Stiff transition."
+  },
+  {
+   "phrase": "moreover,",
+   "action": "replace",
+   "replace": "Also,",
+   "category": "transition",
+   "why": "Stiff transition."
+  },
+  {
+   "phrase": "consequently,",
+   "action": "replace",
+   "replace": "So",
+   "category": "transition",
+   "why": "Stiff transition."
+  },
+  {
+   "phrase": "notably,",
+   "action": "delete",
+   "replace": "",
+   "category": "transition",
+   "why": "Tells the reader what to notice."
+  },
+  {
+   "phrase": "importantly,",
+   "action": "delete",
+   "replace": "",
+   "category": "transition",
+   "why": "Tells the reader what matters."
+  },
+  {
+   "phrase": "that being said,",
+   "action": "replace",
+   "replace": "Still,",
+   "category": "transition",
+   "why": "Wordy pivot."
+  },
+  {
+   "phrase": "with that being said,",
+   "action": "replace",
+   "replace": "Still,",
+   "category": "transition",
+   "why": "Wordy pivot."
+  },
+  {
+   "phrase": "let's dive in",
+   "action": "delete",
+   "replace": "",
+   "category": "opener",
+   "why": "Blog-template opener."
+  },
+  {
+   "phrase": "let's dive into",
+   "action": "replace",
+   "replace": "let's look at",
+   "category": "opener",
+   "why": "Blog-template opener."
+  },
+  {
+   "phrase": "dive into",
+   "action": "replace",
+   "replace": "look at",
+   "category": "vocab",
+   "why": "Overused metaphor."
+  },
+  {
+   "phrase": "deep dive",
+   "action": "replace",
+   "replace": "close look",
+   "category": "vocab",
+   "why": "Overused metaphor."
+  },
+  {
+   "phrase": "delve into",
+   "action": "replace",
+   "replace": "look at",
+   "category": "vocab",
+   "why": "The classic LLM word."
+  },
+  {
+   "phrase": "delves into",
+   "action": "replace",
+   "replace": "looks at",
+   "category": "vocab",
+   "why": "The classic LLM word."
+  },
+  {
+   "phrase": "delving into",
+   "action": "replace",
+   "replace": "looking at",
+   "category": "vocab",
+   "why": "The classic LLM word."
+  },
+  {
+   "phrase": "delve",
+   "action": "replace",
+   "replace": "dig",
+   "category": "vocab",
+   "why": "The classic LLM word."
+  },
+  {
+   "phrase": "embark on a journey",
+   "action": "replace",
+   "replace": "start",
+   "category": "vocab",
+   "why": "Melodrama for 'start'."
+  },
+  {
+   "phrase": "embark on",
+   "action": "replace",
+   "replace": "start",
+   "category": "vocab",
+   "why": "Melodrama for 'start'."
+  },
+  {
+   "phrase": "navigate the complexities of",
+   "action": "replace",
+   "replace": "deal with",
+   "category": "vocab",
+   "why": "Inflated phrasing."
+  },
+  {
+   "phrase": "navigating the complexities of",
+   "action": "replace",
+   "replace": "dealing with",
+   "category": "vocab",
+   "why": "Inflated phrasing."
+  },
+  {
+   "phrase": "navigate the landscape of",
+   "action": "replace",
+   "replace": "work through",
+   "category": "vocab",
+   "why": "Inflated phrasing."
+  },
+  {
+   "phrase": "a testament to",
+   "action": "replace",
+   "replace": "proof of",
+   "category": "vocab",
+   "why": "Overused praise frame."
+  },
+  {
+   "phrase": "stands as a testament to",
+   "action": "replace",
+   "replace": "shows",
+   "category": "vocab",
+   "why": "Overused praise frame."
+  },
+  {
+   "phrase": "serves as a testament to",
+   "action": "replace",
+   "replace": "shows",
+   "category": "vocab",
+   "why": "Overused praise frame."
+  },
+  {
+   "phrase": "rich tapestry",
+   "action": "replace",
+   "replace": "mix",
+   "category": "vocab",
+   "why": "LLM favorite metaphor."
+  },
+  {
+   "phrase": "tapestry of",
+   "action": "replace",
+   "replace": "mix of",
+   "category": "vocab",
+   "why": "LLM favorite metaphor."
+  },
+  {
+   "phrase": "plays a crucial role in",
+   "action": "replace",
+   "replace": "matters for",
+   "category": "vocab",
+   "why": "Vague importance claim."
+  },
+  {
+   "phrase": "plays a pivotal role in",
+   "action": "replace",
+   "replace": "matters for",
+   "category": "vocab",
+   "why": "Vague importance claim."
+  },
+  {
+   "phrase": "plays a vital role in",
+   "action": "replace",
+   "replace": "matters for",
+   "category": "vocab",
+   "why": "Vague importance claim."
+  },
+  {
+   "phrase": "plays a significant role in",
+   "action": "replace",
+   "replace": "matters for",
+   "category": "vocab",
+   "why": "Vague importance claim."
+  },
+  {
+   "phrase": "a myriad of",
+   "action": "replace",
+   "replace": "many",
+   "category": "vocab",
+   "why": "Ornamental quantifier."
+  },
+  {
+   "phrase": "myriad",
+   "action": "replace",
+   "replace": "many",
+   "category": "vocab",
+   "why": "Ornamental quantifier."
+  },
+  {
+   "phrase": "a plethora of",
+   "action": "replace",
+   "replace": "plenty of",
+   "category": "vocab",
+   "why": "Ornamental quantifier."
+  },
+  {
+   "phrase": "plethora",
+   "action": "replace",
+   "replace": "lot",
+   "category": "vocab",
+   "why": "Ornamental quantifier."
+  },
+  {
+   "phrase": "utilize",
+   "action": "replace",
+   "replace": "use",
+   "category": "vocab",
+   "why": "Long word for 'use'."
+  },
+  {
+   "phrase": "utilizes",
+   "action": "replace",
+   "replace": "uses",
+   "category": "vocab",
+   "why": "Long word for 'uses'."
+  },
+  {
+   "phrase": "utilizing",
+   "action": "replace",
+   "replace": "using",
+   "category": "vocab",
+   "why": "Long word for 'using'."
+  },
+  {
+   "phrase": "leverage",
+   "action": "replace",
+   "replace": "use",
+   "category": "vocab",
+   "why": "Business jargon."
+  },
+  {
+   "phrase": "leveraging",
+   "action": "replace",
+   "replace": "using",
+   "category": "vocab",
+   "why": "Business jargon."
+  },
+  {
+   "phrase": "seamlessly",
+   "action": "delete",
+   "replace": "",
+   "category": "vocab",
+   "why": "Marketing adverb."
+  },
+  {
+   "phrase": "seamless",
+   "action": "replace",
+   "replace": "smooth",
+   "category": "vocab",
+   "why": "Marketing adjective."
+  },
+  {
+   "phrase": "robust",
+   "action": "replace",
+   "replace": "solid",
+   "category": "vocab",
+   "why": "Overused adjective."
+  },
+  {
+   "phrase": "cutting-edge",
+   "action": "replace",
+   "replace": "new",
+   "category": "vocab",
+   "why": "Marketing adjective."
+  },
+  {
+   "phrase": "state-of-the-art",
+   "action": "replace",
+   "replace": "modern",
+   "category": "vocab",
+   "why": "Marketing adjective."
+  },
+  {
+   "phrase": "game-changer",
+   "action": "replace",
+   "replace": "big change",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "game-changing",
+   "action": "replace",
+   "replace": "major",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "revolutionize",
+   "action": "replace",
+   "replace": "change",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "revolutionizing",
+   "action": "replace",
+   "replace": "changing",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "unlock the power of",
+   "action": "replace",
+   "replace": "use",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "unlock the potential of",
+   "action": "replace",
+   "replace": "get more from",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "harness the power of",
+   "action": "replace",
+   "replace": "use",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "unleash",
+   "action": "replace",
+   "replace": "release",
+   "category": "vocab",
+   "why": "Hype."
+  },
+  {
+   "phrase": "elevate your",
+   "action": "replace",
+   "replace": "improve your",
+   "category": "vocab",
+   "why": "Marketing verb."
+  },
+  {
+   "phrase": "elevate",
+   "action": "replace",
+   "replace": "improve",
+   "category": "vocab",
+   "why": "Marketing verb."
+  },
+  {
+   "phrase": "empower",
+   "action": "replace",
+   "replace": "help",
+   "category": "vocab",
+   "why": "Marketing verb."
+  },
+  {
+   "phrase": "empowers",
+   "action": "replace",
+   "replace": "helps",
+   "category": "vocab",
+   "why": "Marketing verb."
+  },
+  {
+   "phrase": "foster",
+   "action": "replace",
+   "replace": "build",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "fostering",
+   "action": "replace",
+   "replace": "building",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "bolster",
+   "action": "replace",
+   "replace": "strengthen",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "underscore",
+   "action": "replace",
+   "replace": "show",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "underscores",
+   "action": "replace",
+   "replace": "shows",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "showcasing",
+   "action": "replace",
+   "replace": "showing",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "showcase",
+   "action": "replace",
+   "replace": "show",
+   "category": "vocab",
+   "why": "Formal verb LLMs overuse."
+  },
+  {
+   "phrase": "streamline",
+   "action": "replace",
+   "replace": "simplify",
+   "category": "vocab",
+   "why": "Business jargon."
+  },
+  {
+   "phrase": "holistic",
+   "action": "replace",
+   "replace": "complete",
+   "category": "vocab",
+   "why": "Vague adjective."
+  },
+  {
+   "phrase": "comprehensive",
+   "action": "replace",
+   "replace": "full",
+   "category": "vocab",
+   "why": "Vague adjective."
+  },
+  {
+   "phrase": "meticulous",
+   "action": "replace",
+   "replace": "careful",
+   "category": "vocab",
+   "why": "LLM favorite adjective."
+  },
+  {
+   "phrase": "meticulously",
+   "action": "replace",
+   "replace": "carefully",
+   "category": "vocab",
+   "why": "LLM favorite adverb."
+  },
+  {
+   "phrase": "intricate",
+   "action": "replace",
+   "replace": "complex",
+   "category": "vocab",
+   "why": "LLM favorite adjective."
+  },
+  {
+   "phrase": "intricacies",
+   "action": "replace",
+   "replace": "details",
+   "category": "vocab",
+   "why": "LLM favorite noun."
+  },
+  {
+   "phrase": "nuanced",
+   "action": "replace",
+   "replace": "subtle",
+   "category": "vocab",
+   "why": "LLM favorite adjective."
+  },
+  {
+   "phrase": "pivotal",
+   "action": "replace",
+   "replace": "key",
+   "category": "vocab",
+   "why": "LLM favorite adjective."
+  },
+  {
+   "phrase": "paramount",
+   "action": "replace",
+   "replace": "most important",
+   "category": "vocab",
+   "why": "Inflated adjective."
+  },
+  {
+   "phrase": "vibrant",
+   "action": "replace",
+   "replace": "lively",
+   "category": "vocab",
+   "why": "Travel-brochure adjective."
+  },
+  {
+   "phrase": "bustling",
+   "action": "replace",
+   "replace": "busy",
+   "category": "vocab",
+   "why": "Travel-brochure adjective."
+  },
+  {
+   "phrase": "ever-evolving",
+   "action": "replace",
+   "replace": "changing",
+   "category": "vocab",
+   "why": "Filler adjective."
+  },
+  {
+   "phrase": "ever-changing",
+   "action": "replace",
+   "replace": "changing",
+   "category": "vocab",
+   "why": "Filler adjective."
+  },
+  {
+   "phrase": "dynamic landscape",
+   "action": "replace",
+   "replace": "changing field",
+   "category": "vocab",
+   "why": "Filler metaphor."
+  },
+  {
+   "phrase": "landscape",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Used for anything except land."
+  },
+  {
+   "phrase": "realm",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Rarely literal."
+  },
+  {
+   "phrase": "beacon",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Overused metaphor."
+  },
+  {
+   "phrase": "symphony",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Overused metaphor."
+  },
+  {
+   "phrase": "labyrinth",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Overused metaphor."
+  },
+  {
+   "phrase": "testament",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Overused praise frame."
+  },
+  {
+   "phrase": "tapestry",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "LLM favorite metaphor."
+  },
+  {
+   "phrase": "resonate",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Vague emotional verb."
+  },
+  {
+   "phrase": "synergy",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Corporate jargon."
+  },
+  {
+   "phrase": "paradigm shift",
+   "action": "flag",
+   "replace": "",
+   "category": "vocab",
+   "why": "Corporate jargon."
+  },
+  {
+   "phrase": "i hope this helps",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Chatbot sign-off."
+  },
+  {
+   "phrase": "i hope this email finds you well",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Template email opener."
+  },
+  {
+   "phrase": "feel free to reach out",
+   "action": "replace",
+   "replace": "let me know",
+   "category": "chatbot",
+   "why": "Template closer."
+  },
+  {
+   "phrase": "great question!",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Chatbot flattery."
+  },
+  {
+   "phrase": "certainly!",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Chatbot opener."
+  },
+  {
+   "phrase": "absolutely!",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Chatbot opener."
+  },
+  {
+   "phrase": "as an ai language model,",
+   "action": "delete",
+   "replace": "",
+   "category": "chatbot",
+   "why": "Pasted chatbot disclaimer."
+  },
+  {
+   "phrase": "not only",
+   "action": "flag",
+   "replace": "",
+   "category": "structure",
+   "why": "Often part of 'not only X but also Y'."
+  },
+  {
+   "phrase": "whether you're a",
+   "action": "flag",
+   "replace": "",
+   "category": "structure",
+   "why": "'Whether you're a beginner or a pro' template."
+  }
+ ],
+ "patterns": [
+  {
+   "id": "em_dash",
+   "label": "Em-dash overuse",
+   "regex": "—",
+   "threshold_per_100_words": 1,
+   "why": "LLMs lean on em-dashes for rhythm."
+  },
+  {
+   "id": "not_x_but_y",
+   "label": "\"It's not X, it's Y\"",
+   "regex": "\\b(?:it's|it is|this is) not (?:just |only |merely )?[^.;,]{1,40}[,;] (?:it's|it is|but)\\b",
+   "why": "Contrast framing that LLMs overuse."
+  },
+  {
+   "id": "triplet",
+   "label": "Rule-of-three lists",
+   "regex": "\\b\\w+(?:ing|ity|ness|tion)?, \\w+(?:ing|ity|ness|tion)?,? and \\w+",
+   "why": "Lists of exactly three for cadence."
+  },
+  {
+   "id": "rhetorical_q",
+   "label": "Rhetorical question opener",
+   "regex": "(?:^|\\n)\\s*(?:Ever wondered|Have you ever wondered|Imagine)",
+   "why": "Hook template."
+  },
+  {
+   "id": "colon_reveal",
+   "label": "Colon reveal",
+   "regex": "\\bHere's the (?:thing|kicker|catch|truth):",
+   "why": "Fake suspense."
+  }
+ ]
+}
